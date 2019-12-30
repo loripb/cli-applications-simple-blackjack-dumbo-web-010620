@@ -28,8 +28,8 @@ def initial_round
   card2 = deal_card
 
   sum = card1 + card2
-  binding.pry
   display_card_total(sum)
+  binding.pry
 end
 
 def hit?
