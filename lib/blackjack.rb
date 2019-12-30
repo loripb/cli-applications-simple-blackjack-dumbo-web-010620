@@ -57,5 +57,11 @@ end
 #####################################################
 
 def runner
+  welcome
+  sum = initial_round
 
+  until sum > 21
+    hit?
+  end
+end_game
 end
