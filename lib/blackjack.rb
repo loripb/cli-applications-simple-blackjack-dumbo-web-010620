@@ -41,7 +41,6 @@ def hit?(card_total)
   elsif input == 's'
     card_total
   else
-    binding.pry
     invalid_command
     prompt_user
     card_total
