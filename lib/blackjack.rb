@@ -39,6 +39,7 @@ def hit?(card_total)
   if input == 'h'
     card_total += deal_card
   elsif input == 's'
+    hit?(card_total)
     card_total
   else
     invalid_command
@@ -57,5 +58,5 @@ end
 #####################################################
 
 def runner
-  # code runner here
+
 end
