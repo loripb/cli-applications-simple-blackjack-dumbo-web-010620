@@ -29,7 +29,6 @@ def initial_round
 
   sum = card1 + card2
   display_card_total(sum)
-  binding.pry
 end
 
 def hit?
